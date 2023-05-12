@@ -1,0 +1,194 @@
+* {
+    margin: 10;
+    padding: 10;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    background-color: rgb(17, 159, 159);
+    padding: 30px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(61, 61, 63);
+    margin-top: 20px;
+    background-color: rgb(89, 166, 166);
+    padding: 30px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(61, 61, 63);
+    text-align: center;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(61, 61, 63);
+    text-align: left;
+    margin-left: 10px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 15px; 
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgb(193, 219, 219);
+    text-align: center;
+}
+
+.encabezado {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.campoBusqueda {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container{
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div-card{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:275px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius:15px;
+  font-family: sans-serif;
+}
+
+.botonCard {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nombre{
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+  padding-top: 10px;
+}
+
+.fechaSalida{
+    font-size: 15px;
+    text-align: center;
+}
+
+.duracion{
+    font-size: 15px;
+    text-align: center;
+}
+
+.precio{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.btnCheckout {
+    background-color: rgb(17, 159, 159);
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-top: 20px;
+    display: inline;
+    padding: 10px;
+    float: right;
+    height: 50px;
+    width: 50px;
+}
+
+.btnCheckout img {
+    width: 50px;
+}
+
+.avisoError {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(61, 61, 63);
+    background-color: rgb(236, 133, 77);
+    padding: 4px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tablaCarrito {
+    margin: 50px;
+}
+
+.tablaBotonesCarrito {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;   
+}
+
+.buttonComprar {
+    font-size: 12px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    background-color: #0180FD;
+    border: 0px;
+    padding: 7px; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 5px; 
+}
+
+.buttonVolver {
+    font-size: 12px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    background-color: #5e656d;
+    border: 0px;
+    padding: 7px; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 5px; 
+}
+
+.botonQuitar {
+    font-size: 10px;
+    color: white;
+    background-color:red;
+    border: 0px;
+    width: 20px;
+    height: 20px;
+    text-decoration: none; 
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px; 
+}
+
+.botonesTotal {
+    text-align: center;
+}
